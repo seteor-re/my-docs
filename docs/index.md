@@ -2,6 +2,9 @@
 
 **用文档整理知识，用自动化保持更新。**
 
+!!! success "自动部署验证 · 第二次推送"
+    从 Markdown 到公开网页：这是 seteor-re 的第二次文档推送，用于验证修改能够自动发布。
+
 欢迎来到 seteor 的技术笔记。这个网站把 Markdown 源文件、Git 版本记录和自动部署连接起来：每次把文档修改推送到 `main`，GitHub Actions 就会构建网站，再交给 GitHub Pages 发布。
 
 - 作者：[seteor-re](https://github.com/seteor-re)
