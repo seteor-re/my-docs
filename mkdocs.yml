@@ -1,0 +1,45 @@
+site_name: seteor 的技术笔记
+site_description: 用 Markdown 记录学习，用 GitHub Actions 持续发布。
+site_author: seteor-re
+site_url: https://seteor-re.github.io/my-docs/
+repo_url: https://github.com/seteor-re/my-docs
+repo_name: seteor-re/my-docs
+theme:
+  name: material
+  language: zh
+  font: false
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - content.code.copy
+    - search.highlight
+nav:
+  - 首页: index.md
+  - 关于: about.md
+  - 使用指南: guide.md
+  - API 参考: api.md
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+plugins:
+  - search:
+      lang: zh
