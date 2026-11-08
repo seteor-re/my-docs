@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-08T15:58:13.520884+08:00",
+  "pages": [
+    {
+      "url": "https://seteor-re.github.io/my-docs/",
+      "status": 200,
+      "expected_heading": "我的技术文档",
+      "second_push_text_present": true
+    },
+    {
+      "url": "https://seteor-re.github.io/my-docs/about/",
+      "status": 200,
+      "expected_heading": "关于本项目"
+    },
+    {
+      "url": "https://seteor-re.github.io/my-docs/guide/",
+      "status": 200,
+      "expected_heading": "使用指南"
+    },
+    {
+      "url": "https://seteor-re.github.io/my-docs/api/",
+      "status": 200,
+      "expected_heading": "API 参考"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://seteor-re.github.io/my-docs/assets/javascripts/bundle.a5f9d56c.min.js",
+      "status": 200
+    },
+    {
+      "url": "https://seteor-re.github.io/my-docs/assets/stylesheets/main.57a0d79d.min.css",
+      "status": 200
+    },
+    {
+      "url": "https://seteor-re.github.io/my-docs/assets/stylesheets/palette.fb2fffe2.min.css",
+      "status": 200
+    }
+  ],
+  "search_entries": 23
+}

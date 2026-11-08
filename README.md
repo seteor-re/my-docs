@@ -2,10 +2,12 @@
 
 开源软件课程实践项目 02：使用 MkDocs Material 编写四页中文文档，通过 GitHub Actions 构建并部署到 GitHub Pages。
 
-- [网站地址](https://seteor-re.github.io/my-docs/)（部署完成后可用）
+- [网站地址](https://seteor-re.github.io/my-docs/)
 - [个人实验报告](report/README.md)
 - [Actions 运行记录](https://github.com/seteor-re/my-docs/actions)
 - [课程要求](https://github.com/hunnuOpenSourceSoftware2026/assignments/blob/main/02-github-pages.md)
+
+已完成两次由 `push` 触发的成功部署：[首次发布](https://github.com/seteor-re/my-docs/actions/runs/42460574000) · [自动更新验证](https://github.com/seteor-re/my-docs/actions/runs/42460790215)。首页绿色提示框与第二次提交对应，完整过程和截图见实验报告。
 
 ## 本地预览
 
